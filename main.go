@@ -1,19 +1,21 @@
 package main
 
+/*
+created by yusuf cakir
+e-mail : yusufckr6194@gmail.com
+*/
+
 import (
 	"github/deliveryhero/source/api"
 	"github/deliveryhero/source/log"
-	. "github/deliveryhero/source/models"
 	. "github/deliveryhero/source/storage"
 )
 
 func main() {
 
 	TimeControl()
-	CheckExistingData()
+	CheckData()
 
-	log.Info.Printf("Server starting %s", API_PORT)
-
+	log.Info.Println("Server starting")
 	api.StartAPI()
-
 }
