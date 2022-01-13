@@ -42,6 +42,8 @@ $ git clone https://github.com/ycak1r/rest-api-key-value
  docker build -t golang-restapi .
  
  docker run -p 8081:8085 golang-rest-api
+ 
+ docker run -d --publish 8081:8085 golang-rest-api
 
  ```
 
