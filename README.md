@@ -3,9 +3,9 @@
 [![Go Reference](https://pkg.go.dev/badge/golang.org/x/example.svg)](https://pkg.go.dev/net/http)
 
 
-<h2> An in-memory, key-value store golang-rest-api <h3>
+<h2> In-memory, key-value store golang-rest-api <h3>
 
->It allows you to save requests made to an API to a file in 'N' seconds..
+>It allows you to save requests made in API to a file in 'N' seconds..
 ## Clone the project
 
 ```
@@ -33,7 +33,7 @@ $ git clone https://github.com/ycak1r/rest-api-key-value
 # How to create Docker Image and Container
 
 > Create Dockerfile <br>
->Follow the validation to create the next
+>Follow the steps to create the image and the container.
 
 ``` sh
 
